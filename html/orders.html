@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название сайта</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/img/image03.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      Название сайта
+    </a>
+    <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="register.html">Зарегистрироваться</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="login.html">Войти</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="orders.html">Сформировать заявку</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="user_dashboard.html">Мои заявки</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="admin.html">Админ панель</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="logout.html">Выход</a>
+  </li>
+    </ul>
+    </div>
+    </nav>
+    <h1>Формирование заявки</h1>
+    <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Адрес</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Телефон</label>
+    <input type="text" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Вид чего-то</label>
+    <select class="form-select" aria-label="Default select example">
+  <option selected>Вид чего-то</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Дата</label>
+    <input type="date" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Время</label>
+    <input type="time" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Оплата</label>
+    <select class="form-select" aria-label="Default select example">
+  <option selected>Вид оплаты</option>
+  <option value="1">наличные</option>
+  <option value="2">банковская карта</option>
+  <option value="3">перевод</option>
+</select>
+  </div>
+  <button type="button" class="btn btn-outline-info">Отправить заявку</button>
+</form>
+<script src="assets/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>

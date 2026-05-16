@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+/* Настройки для картинок внутри слайдера */
+.carousel-item img {
+    height: 400px;       
+    object-fit: cover;   
+    width: 100%;
+    object-position: center; 
+}
+form{
+    width: 380px;
+    margin: auto;
+}
+.alert{
+width: 380px;
+    margin: auto;
+}
